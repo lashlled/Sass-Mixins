@@ -93,6 +93,12 @@
             box-shadow: $x $y $offset $hex;
 }
 
+@mixin text-shadow($value) {
+  -webkit-text-shadow: $value;
+     -moz-text-shadow: $value;
+          text-shadow: $value;
+}
+
 // Box Sizing
 @mixin box-sizing($value) {
     -webkit-box-sizing: $value;
